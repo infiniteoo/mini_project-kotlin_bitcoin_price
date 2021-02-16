@@ -37,13 +37,13 @@
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="180dp"
-        android:layout_height="42dp"
+        android:id="@+id/currentValueView"
+        android:layout_width="367dp"
+        android:layout_height="54dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="32dp"
         android:text="$00000.00"
-        android:textSize="36"
+        android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -58,6 +58,7 @@
         android:layout_marginEnd="111dp"
         android:layout_marginBottom="96dp"
         android:text="Refresh"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
