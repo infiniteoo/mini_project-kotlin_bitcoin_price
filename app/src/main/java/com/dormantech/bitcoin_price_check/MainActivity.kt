@@ -19,9 +19,9 @@ class MainActivity : AppCompatActivity() {
 
         makeHTTPRequest()
 
-//        refreshRequestButton.setOnClickListener {
-//            makeHTTPRequest()
-//        }
+        refreshRequestButton.setOnClickListener {
+            makeHTTPRequest()
+        }
     }
 
     private fun makeHTTPRequest() {
