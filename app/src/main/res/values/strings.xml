@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">bitcoin_price_check</string>
+    <string name="bitcoinLogo">₿</string>
+    <string name="current_bitcoin_price">Current Bitcoin Price:</string>
+    <string name="refreshButton">Refresh</string>
+    <string name="_00000_0000">USD $00000.0000</string>
 </resources>
